@@ -1,6 +1,7 @@
 import { Grid } from '@material-ui/core';
 import React from 'react';
 import MainGridItem from './MainGridItem';
+import ProductInformation from './ProductInformation';
 
 export default function GridLayout(){
     return(
@@ -9,7 +10,7 @@ export default function GridLayout(){
                 <MainGridItem />
             </Grid>
             <Grid item>
-
+                <ProductInformation />
             </Grid>
         </Grid>
     );
